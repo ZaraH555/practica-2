@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ProductoComponent } from './producto.component';
+import { beforeEach, describe, it } from 'node:test';
+import 'jasmine';
 
 describe('ProductoComponent', () => {
   let component: ProductoComponent;
@@ -21,3 +23,4 @@ describe('ProductoComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

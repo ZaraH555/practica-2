@@ -1,8 +1,9 @@
 export class Producto{
     constructor(
         public id: number,
-        public nombre:string,
+        public nombre: string,
         public precio: number,
-        public imagen:string
+        public imagen: string,
+        public cantidad: number = 0
     ){}
 }
